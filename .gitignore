@@ -1,0 +1,23 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuales
+.venv/
+venv/
+env/
+env-tox/
+
+# Artefactos de tox y de empaquetamiento
+.tox/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# NOTA: dist/ y model/trained/*.pkl NO se ignoran a propósito.
+# La rúbrica 4.7 pide evidenciar el archivo .whl en la máquina local,
+# y para eso el paquete construido debe viajar por el repositorio.
